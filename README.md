@@ -12,20 +12,6 @@ A practical solution for quick email sending needs.
 - Modern UI built with Angular and Node.js
 - Backend API in ASP.NET Core
 
----
-
-## Screenshots
-
-### Main Interface
-![Main Interface](./docs/screenshot1.png)
-
-### Anonymous Option
-![Anonymous Option](./docs/screenshot2.png)
-
-### Success Message
-![Success Message](./docs/screenshot3.png)
-
----
 
 ## Project Structure
 
@@ -61,7 +47,7 @@ cd SendEmailApi
 
 To send an email, make a POST request to the `/api/send` endpoint with a JSON body that matches the `EmailRequest` model. The required fields are `To`, `Subject`, and `Message`.
 
-### Example Request
+# Example Request
 {
   "to": "recipient@example.com",
   "subject": "Test Email",
@@ -70,4 +56,3 @@ To send an email, make a POST request to the `/api/send` endpoint with a JSON bo
   "senderName": "Anonymous",
   "senderEmail": ""
 }
----
