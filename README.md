@@ -1,5 +1,7 @@
 # Send Email API
 
+https://sendaemailforme.netlify.app/
+
 A UI interface built with Angular and Node.js that allows users to send emails without logging into any email provider.  
 A practical solution for quick email sending needs.
 
